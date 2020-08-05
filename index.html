@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.min.css">
+	<title>Search Filter</title>
+</head>
+<body>
+	<section>
+		<div class="container">
+			<div class="top">
+				<label for="names">Write the name</label>
+				<!-- Then input below is the fall back that is used for browsers that don't supper DATALIST ELEMENT -->
+				<input type="text" id="names" name="names" list="nameList">
+				<span class="fa fa-search"></span>
+			</div>
+
+			<div class="bottom">
+				<!-- Datalist -->
+				<datalist id="nameList">
+					<label for="suggestions"></label>
+					<select id="suggestions" name="names">
+						<option>Brock Lee</option>
+						<option>Barry Wine</option>
+						<option>Tom Foolery</option>
+						<option>Will Power</option>
+						<option>Terry Bull</option>
+						<option>Evan Shlee</option>
+						<option>John Withawind</option>
+						<option>Bud Jet</option>
+						<option>Marcus Down</option>
+						<option>Dan Druff</option>
+						<option>Bart Ender</option>
+						<option>Ben Effit</option>
+						<option>Isaac Alsop</option>
+						<option>Julia Burgess</option>
+						<option>Edward Rampling</option>
+						<option>Megan Vaughan</option>
+						<option>Theresa Hardacre</option>
+						<option>Elizabeth Slater</option>
+						<option>Sally Stewart</option>
+						<option>Adam Mills</option>
+						<option>Una Springer</option>
+						<option>Joseph Mackay</option>
+					</select>
+				</datalist>
+			</div>
+		</div>
+	</section>
+</body>
+</html>
